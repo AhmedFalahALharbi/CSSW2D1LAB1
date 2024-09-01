@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: rgb(56, 56, 56);
+    height: 40px;
+}
+ul {
+    list-style-type: none;
+    /* line-height: 10px; */
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+ul li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+main {
+    color: gray;
+}
+section {
+    position: relative;
+    width: 50vw;
+    height: 60vh;
+
+    display: inline-block;
+}
+article {
+    position:absolute;
+    display: inline-block;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 3vw;
+    align-content:center;
+    color: black;
+    direction: rtl;
+}
+.Pic1 {
+    position:absolute;
+    border-radius: 10px;
+    z-index: 2;
+    margin-left: 200px;
+    margin-top: 200px;
+
+}
+.Pic2 {
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: 100;
+}
+.box-container {
+    background-color: rgb(231, 231, 231);
+    padding-top: 10px;
+}
+.container {
+    display: inline-block;
+    
+}
+.boxr1 {
+    display: inline-block;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 150px;
+    
+    margin-bottom: 20px;
+}
+#box1 {
+    background-color: aqua;
+    border-left:solid 2px ;
+    border-bottom: solid 2px;
+}
+#box2 {
+    margin-left: 250px;
+    border-right:solid 2px ;
+    border-bottom: solid 2px;
+}
+.boxr2 {
+    display: inline-block;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 200px; 
+    margin-bottom: 20px;
+}
+#box3 {
+    margin-left: 250px;
+    border-left:solid 2px ;
+    border-bottom: solid 2px;
+    background-color: violet;
+}
+#box4 {
+    margin-left: 50px;
+    border-right:solid 2px ;
+    border-bottom: solid 2px;
+    background-color: chartreuse;
+}
+#box5 {
+    border-right:solid 2px ;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    background-color:indianred;
+}
+.boxr3 {
+    display: inline-block;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 325px; 
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgb(56, 56, 56);
+    height: 70px;
+    text-align: center;
+    color: white;
+}
